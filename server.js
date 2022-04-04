@@ -11,6 +11,7 @@ const connectionUrl = `mongodb+srv://admin:mongodb@cluster0.qtndx.mongodb.net/ti
 // Middlewares
 app.use(express.json());
 app.use(Cors());
+app.use(express.static('build'))
 
 // DB Config
 mongoose.connect(connectionUrl)
