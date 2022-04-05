@@ -6,7 +6,7 @@ import Cards from './models/dbCards.js';
 // App Config
 const app = express();
 const port = process.env.PORT || 8001;
-const connectionUrl = `mongodb+srv://admin:password@cluster0.qtndx.mongodb.net/tinderCloneDB?retryWrites=true&w=majority`;
+const connectionUrl = `mongodb+srv://username:password@cluster0.qtndx.mongodb.net/tinderCloneDB?retryWrites=true&w=majority`;
 
 // Middlewares
 app.use(express.json());
